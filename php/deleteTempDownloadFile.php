@@ -1,6 +1,6 @@
 <?php
     $this_crontab = $argv[1];
-    $url = "https://192.168.88.75:3687/api/PaaS/1.0/Customized/Check/Delete/DownloadFiles/Deadline/".$this_crontab."?uid=@sapido@PaaS";
+    $url = "https://192.168.88.75:3687/api/PaaS/1.0/Customized/Check/Delete/DownloadFiles/Deadline/".$this_crontab."?uid=@PaaS";
 
     $options = array(
         "ssl"=>array(
